@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "PropertyListManager.h"
 @interface ViewController ()
 
 @end
@@ -16,12 +16,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+    // parse the property list (in Array)
+    NSArray *resultList = [PropertyListManager fetchArrayWithPlist:@"MenuPropertyList"];
+    NSLog(@"\n\nMenuPropertyList\n%@",resultList);
+    
+    // parse the property list (in Dictionaty)
+    NSDictionary *resultDict = [PropertyListManager fetchDictWithPlist:@"SignupPropertyList"];
+    NSLog(@"\n\nSignupPropertyList\n%@",resultDict);
 }
 
 @end

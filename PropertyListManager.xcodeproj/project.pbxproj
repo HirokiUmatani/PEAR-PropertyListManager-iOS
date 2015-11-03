@@ -15,6 +15,9 @@
 		F4CC41AE1BE8CAC2005D4AB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4CC41AC1BE8CAC2005D4AB3 /* LaunchScreen.storyboard */; };
 		F4CC41B91BE8CAC2005D4AB3 /* PropertyListManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CC41B81BE8CAC2005D4AB3 /* PropertyListManagerTests.m */; };
 		F4CC41C41BE8CAC2005D4AB3 /* PropertyListManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CC41C31BE8CAC2005D4AB3 /* PropertyListManagerUITests.m */; };
+		F4CC41D41BE8CBC5005D4AB3 /* PropertyListManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CC41D31BE8CBC5005D4AB3 /* PropertyListManager.m */; };
+		F4CC41D61BE8CC2E005D4AB3 /* MenuPropertyList.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4CC41D51BE8CC2E005D4AB3 /* MenuPropertyList.plist */; };
+		F4CC41D81BE8D276005D4AB3 /* SignupPropertyList.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4CC41D71BE8D276005D4AB3 /* SignupPropertyList.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		F4CC41BF1BE8CAC2005D4AB3 /* PropertyListManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PropertyListManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4CC41C31BE8CAC2005D4AB3 /* PropertyListManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PropertyListManagerUITests.m; sourceTree = "<group>"; };
 		F4CC41C51BE8CAC2005D4AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4CC41D21BE8CBC5005D4AB3 /* PropertyListManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyListManager.h; sourceTree = "<group>"; };
+		F4CC41D31BE8CBC5005D4AB3 /* PropertyListManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyListManager.m; sourceTree = "<group>"; };
+		F4CC41D51BE8CC2E005D4AB3 /* MenuPropertyList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MenuPropertyList.plist; sourceTree = "<group>"; };
+		F4CC41D71BE8D276005D4AB3 /* SignupPropertyList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SignupPropertyList.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +88,7 @@
 		F4CC41921BE8CAC2005D4AB3 = {
 			isa = PBXGroup;
 			children = (
+				F4CC41D11BE8CB73005D4AB3 /* PEAR-PropertyListManager-iOS */,
 				F4CC419D1BE8CAC2005D4AB3 /* PropertyListManager */,
 				F4CC41B71BE8CAC2005D4AB3 /* PropertyListManagerTests */,
 				F4CC41C21BE8CAC2005D4AB3 /* PropertyListManagerUITests */,
@@ -101,6 +109,8 @@
 		F4CC419D1BE8CAC2005D4AB3 /* PropertyListManager */ = {
 			isa = PBXGroup;
 			children = (
+				F4CC41D51BE8CC2E005D4AB3 /* MenuPropertyList.plist */,
+				F4CC41D71BE8D276005D4AB3 /* SignupPropertyList.plist */,
 				F4CC41A11BE8CAC2005D4AB3 /* AppDelegate.h */,
 				F4CC41A21BE8CAC2005D4AB3 /* AppDelegate.m */,
 				F4CC41A41BE8CAC2005D4AB3 /* ViewController.h */,
@@ -138,6 +148,15 @@
 				F4CC41C51BE8CAC2005D4AB3 /* Info.plist */,
 			);
 			path = PropertyListManagerUITests;
+			sourceTree = "<group>";
+		};
+		F4CC41D11BE8CB73005D4AB3 /* PEAR-PropertyListManager-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F4CC41D21BE8CBC5005D4AB3 /* PropertyListManager.h */,
+				F4CC41D31BE8CBC5005D4AB3 /* PropertyListManager.m */,
+			);
+			path = "PEAR-PropertyListManager-iOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +267,8 @@
 			files = (
 				F4CC41AE1BE8CAC2005D4AB3 /* LaunchScreen.storyboard in Resources */,
 				F4CC41AB1BE8CAC2005D4AB3 /* Assets.xcassets in Resources */,
+				F4CC41D81BE8D276005D4AB3 /* SignupPropertyList.plist in Resources */,
+				F4CC41D61BE8CC2E005D4AB3 /* MenuPropertyList.plist in Resources */,
 				F4CC41A91BE8CAC2005D4AB3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4CC41D41BE8CBC5005D4AB3 /* PropertyListManager.m in Sources */,
 				F4CC41A61BE8CAC2005D4AB3 /* ViewController.m in Sources */,
 				F4CC41A31BE8CAC2005D4AB3 /* AppDelegate.m in Sources */,
 				F4CC41A01BE8CAC2005D4AB3 /* main.m in Sources */,

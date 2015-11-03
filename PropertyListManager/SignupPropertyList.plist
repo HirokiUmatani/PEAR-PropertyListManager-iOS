@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>New item - 1</key>
+	<dict>
+		<key>cellType</key>
+		<integer>0</integer>
+		<key>title</key>
+		<string>Nick Name</string>
+		<key>textField</key>
+		<string></string>
+	</dict>
+	<key>New item - 2</key>
+	<dict>
+		<key>cellType</key>
+		<integer>0</integer>
+		<key>title</key>
+		<string>Mail Address</string>
+		<key>textField</key>
+		<string></string>
+	</dict>
+	<key>New item - 3</key>
+	<dict>
+		<key>cellType</key>
+		<integer>0</integer>
+		<key>title</key>
+		<string>Password</string>
+		<key>textField</key>
+		<string></string>
+	</dict>
+</dict>
+</plist>
