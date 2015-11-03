@@ -1,4 +1,4 @@
-### PEAR-PropertyListManager-iOS [![GitHub license](https://img.shields.io/badge/LICENSE-MIT%20LICENSE-blue.svg)](https://github.com/HirokiUmatani/PEAR-PropertyListManager-iOS/LICENSE) [![CocoaPods](https://img.shields.io/badge/platform-ios-lightgrey.svg)](https://cocoapods.org/pods/PEAR-PropertyListManager-iOS) [![CocoaPods](https://img.shields.io/cocoapods/v/PEAR-HttpFetcher-iOS.svg)](https://cocoapods.org/pods/PEAR-PropertyListManager-iOS)  
+### PEAR-PropertyListManager-iOS [![GitHub license](https://img.shields.io/badge/LICENSE-MIT%20LICENSE-blue.svg)](https://github.com/HirokiUmatani/PEAR-PropertyListManager-iOS/LICENSE) [![CocoaPods](https://img.shields.io/badge/platform-ios-lightgrey.svg)](https://cocoapods.org/pods/PEAR-PropertyListManager-iOS) [![CocoaPods](https://img.shields.io/cocoapods/v/PEAR-PropertyListManager-iOS.svg)](https://cocoapods.org/pods/PEAR-PropertyListManager-iOS)  
 
 ====
 ### Overview
