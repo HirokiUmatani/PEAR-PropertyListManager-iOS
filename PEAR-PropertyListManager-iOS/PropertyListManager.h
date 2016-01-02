@@ -11,4 +11,5 @@
 @interface PropertyListManager : NSObject
 + (NSArray *)fetchArrayWithPlist:(NSString *)plist;
 + (NSDictionary *)fetchDictWithPlist:(NSString *)plist;
+CFPropertyListRef CreateMyPropertyListFromFile( CFURLRef fileURL );
 @end

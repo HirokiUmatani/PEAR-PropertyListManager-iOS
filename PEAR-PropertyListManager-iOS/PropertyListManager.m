@@ -14,6 +14,7 @@
     NSString* propertyDataFilePath = [[NSBundle mainBundle]pathForResource:plist
                                                                 ofType:@"plist"];
    
+    
     return [NSArray arrayWithContentsOfFile:propertyDataFilePath];
 }
 
@@ -23,4 +24,5 @@
                                                                     ofType:@"plist"];
     return [NSDictionary dictionaryWithContentsOfFile:propertyDataFilePath];
 }
+
 @end
